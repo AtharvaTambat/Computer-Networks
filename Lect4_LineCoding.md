@@ -72,7 +72,7 @@ Baud Rate - measuring how effeciently I am using the wire
 1. All the ranges of frequency are not usable - for higher freq. attenuation becomes too high
 2. Given this maximum limit, how much information can I pass through the wire - related to the **baud rate**
 
-3. Convert signal from time domain to frequency domain - if too much of the signal goes beyond the maximum limit ($f_0$) then information loss - we want to make the baud rate close to this frequency ( $f_0$ )
+3. Convert signal from time domain to frequency domain - if too much of the signal goes beyond the maximum limit ( $f_0$ ) then information loss - we want to make the baud rate close to this frequency ( $f_0$ )
 
 - Manchester encoding - higher Baud rate than the bit rate - due to clock introduced
 - NRZ encoding - same Baud rate as the Bit rate
