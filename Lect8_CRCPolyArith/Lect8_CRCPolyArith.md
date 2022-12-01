@@ -53,7 +53,7 @@ $$ x^{k+m} + ...+x^q = x^i$$
 - **It is known that C(x) of the form $(x^k + ... +1)$ has order $2^k -1$** - if we fix k, then it limits the value of max length of message (codeword) that can be sent without error
 
 3. **Odd number of errors:**
-- $$ E(x) = x^j + x^i ... \ odd \ number \ of \ terms $$
+$$ E(x) = x^j + x^i ... \ odd \ number \ of \ terms $$
 - Claim: if C(x) = $ (1+x)(...)$ (has (1+x) as a factor) then C(x) cannot divide E(x)
 - i.e. E(x) $ \neq (1+x)G(x)$
 - because (1+x) in denominator would never cancel
